@@ -1,78 +1,58 @@
-# Site settings
-title: Website Title
-description: Website short description
-baseurl: "" 
-#change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://jaylencheng.github.io"  
+title: 林德熙
+description: Windows 10 App Developer
+author: lindexi
+post_author: 林德熙
+logo: /img/avatar.png
+github: https://github.com/lindexi
+about: Windows 10 App Developer
+mail: "lindexi_gd@outlook.com"
+
+baseurl: ""
+url: "https://blog.lindexi.com"
+
+allowsearch: false
+
+analytics:
+  google: UA-110214503-1
+disqus:
+  name: lindexi
+
+share:
+  twitter_username: lindexi_gd
 
 
-# GitHub User settings
-username: Username
-github_username: github_username
-user_description: user_description
-user_title: user_title
-email: 
+enableTags: true
+tagarray: []
 
-# Blog Author settings
-author:
-  name:            
-  picture:        
-  email:           
-  description:     
-  twitter:
-  facebook:
-  github:          
-  linkedin:
-  clustrmap:      
-
-
-# markdown
+excerpt_separator: "<!--more-->"
+paginate: 30
+per_page: 50
+paginate_path: "/blog/page:num/"
 markdown: kramdown
-  
 kramdown:
- footnote_nr: 1
- entity_output: as_char
- # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
- syntax_highlighter: rouge
- syntax_highlighter_opts:
-  # Use existing pygments syntax highlighting css
-  css_class: 'highlight'
- span:
-  line_numbers: false
- block:
-  line_numbers: true
-  start_line: 1
- 
-highlighter: rouge
-    
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  
-permalink: none
+   input: GFM
+   hard_wrap: false
+   math_engine: mathjax
+gems: [jekyll-paginate, jekyll-gist]
 
+# Content Collection
+collections:
+  articles:
+    output: true
+
+# Content Template
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: "_posts"
       type: "posts"
     values:
-      toc: true
-      mathjax: true
-      mermaid: false
-      highlight: false
-      numbering: true
-      status: Completed
-      protected: false
-      commentable: true
-      rss: true
-      numbering: true
-
-
-exclude:
- - LICENSE.md
- - README.md
- - "*.cdf"
- - "*.nb"
- - "*.bk"
- - "*.draft.md"
+      layout: "post"
+      author: "林德熙"
+      permalink: "/post/:title.html"
+  - scope:
+      path: "_articles"
+      type: "articles"
+    values:
+      layout: "post"
+      author: "林德熙"
+      permalink: "/article/:title.html"
