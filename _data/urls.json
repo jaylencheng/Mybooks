@@ -1,6 +1,6 @@
 [
   {
-    "text": "博客",
+    "text": "书籍",
     "url": "/",
     "icon": "fa-book",
     "layout": "post"
@@ -11,7 +11,7 @@
     "icon": "fa-commenting"
   },
   {
-    "text": "朋友",
+    "text": "链接",
     "url": "/friends",
     "icon": "fa-group"
   },
