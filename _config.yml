@@ -1,24 +1,24 @@
-title: 林德熙
-description: Windows 10 App Developer
-author: lindexi
-post_author: 林德熙
+title: Jaylen Cheng
+description: 自律，沉稳，而后爱人
+author: Jaylen Cheng
+post_author: Jaylen Cheng
 logo: /img/avatar.png
-github: https://github.com/lindexi
-about: Windows 10 App Developer
-mail: "lindexi_gd@outlook.com"
+github: https://github.com/jaylencheng
+about: 自律，沉稳，而后爱人
+mail: "jaylencheng@outlook.com  jaylencheng@ieee.org"
 
 baseurl: ""
-url: "https://blog.lindexi.com"
+url: "https://jaylencheng.github.io"
 
 allowsearch: false
 
 analytics:
   google: UA-110214503-1
 disqus:
-  name: lindexi
+  name: jaylencheng
 
 share:
-  twitter_username: lindexi_gd
+  twitter_username: jaylencheng
 
 
 enableTags: true
@@ -47,12 +47,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "林德熙"
+      author: "Jaylen Cheng"
       permalink: "/post/:title.html"
   - scope:
       path: "_articles"
       type: "articles"
     values:
       layout: "post"
-      author: "林德熙"
+      author: "Jaylen Cheng"
       permalink: "/article/:title.html"

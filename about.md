@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于吕毅
-display_title: 吕毅 - walterlv
+title: 关于Jatlen Cheng
+display_title: Jaylen Cheng 
 permalink: /about/
 ---
