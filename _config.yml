@@ -2,12 +2,12 @@ title: Jaylen Cheng
 description: 自律，沉稳，而后爱人
 author: Jaylen Cheng
 post_author: Jaylen Cheng
-logo: Mybooks/img/avatar.png
+logo: img/avatar.png
 github: https://github.com/jaylencheng
 about: 自律，沉稳，而后爱人
 mail: "jaylencheng@outlook.com  jaylencheng@ieee.org"
 
-baseurl: "https://jaylencheng.github.io/Mybooks"
+baseurl: "https://jaylencheng.github.io"
 url: "https://jaylencheng.github.io/Mybooks"
 
 allowsearch: false
