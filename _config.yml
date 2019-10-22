@@ -2,13 +2,13 @@ title: Hello, world! I'm Jaylen Cheng
 description: > # this means to ignore newlines until "baseurl:"
   自律，沉稳，而后爱人.
 permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "jaylencheng.github.io/Mybooks" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "jaylencheng.github.io/Mybooks" # the subpath of your site, e.g. /blog
+url: "jaylencheng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Jaylen Cheng # add your name
-author-img: david-freeman.jpg # add your photo
+author-img: /img/1.jpg # add your photo
 about-author: 自律，沉稳，而后爱人. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
