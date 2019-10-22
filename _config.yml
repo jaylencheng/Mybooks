@@ -1,58 +1,35 @@
-title: Jaylen Cheng
-description: 自律，沉稳，而后爱人
-author: Jaylen Cheng
-post_author: Jaylen Cheng
-logo: img/avatar.png
-github: https://github.com/jaylencheng
-about: 自律，沉稳，而后爱人
-mail: "jaylencheng@outlook.com  jaylencheng@ieee.org"
+title: Hello, world! I'm Jaylen Cheng
+description: > # this means to ignore newlines until "baseurl:"
+  自律，沉稳，而后爱人.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "jaylencheng.github.io/Mybooks" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-baseurl: "https://jaylencheng.github.io/Mybooks"
-url: "https://jaylencheng.github.io"
+# Author Settings
+author: Jaylen Cheng # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: 自律，沉稳，而后爱人. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: jaylencheng # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: jaylencheng@outlook.com  jaylencheng@ieee.org # add your Email address
 
-allowsearch: false
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
 
-analytics:
-  google: 
-disqus:
-  name: jaylencheng/Mybooks
+# Tracker
+analytics: # Google Analytics
 
-share:
-  twitter_username: jaylencheng
-
-
-enableTags: true
-tagarray: []
-
-excerpt_separator: "<!--more-->"
-paginate: 30
-per_page: 50
-paginate_path: "/blog/page:num/"
+# Build Settings
 markdown: kramdown
-kramdown:
-   input: GFM
-   hard_wrap: false
-   math_engine: mathjax
-gems: [jekyll-paginate, jekyll-gist]
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-# Content Collection
-collections:
-  articles:
-    output: true
+paginate: 8
+paginate_path: "/page/:num"
 
-# Content Template
-defaults:
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Jaylen Cheng"
-      permalink: "/post/:title.html"
-  - scope:
-      path: "_articles"
-      type: "articles"
-    values:
-      layout: "post"
-      author: "Jaylen Cheng"
-      permalink: "/article/:title.html"
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
