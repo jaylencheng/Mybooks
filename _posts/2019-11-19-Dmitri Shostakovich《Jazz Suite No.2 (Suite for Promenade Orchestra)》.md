@@ -1,12 +1,15 @@
 ﻿---
 layout: post
-title: How I Rest From Work
+title: 2019-11-19-Dmitri Shostakovich《Jazz Suite No.2 (Suite for Promenade Orchestra)》
 date: 2019-11-19 13:32:20 +0300
 description: 听Dmitri Shostakovich《Jazz Suite No.2 (Suite for Promenade Orchestra) - VI. Waltz 2》有感. # Add post description (optional)
 img: music.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: Music Forever
 ---
+听Dmitri Shostakovich《Jazz Suite No.2 (Suite for Promenade Orchestra) - VI. Waltz 2》有感.
+
+## 正文
 最近打开网易云的日推，发现经常听日文的我被网易推荐了肖斯塔科维奇的第二圆舞曲。听了几遍，觉得总该写点什么。
 
 时隔多年，我又重新听了一遍这首古典入门曲，越发觉得它的恢宏壮观，大与以前的感觉不同。
