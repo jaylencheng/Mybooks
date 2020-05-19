@@ -14,7 +14,7 @@ seucata.cls提供了符合规范的东南大学本科毕业设计论文的$\LaTe
 模板的格式尽量满足东南大学教务处的要求，当然由于水平有限其中错
 漏在所难免，我们欢迎东大的 $\LaTeX{er}$ 一起参加开发和完善。如果您对开发和完善seucata
 感兴趣、有任何想法或建议，请与Cata联系。该项目主页[GitHub:](https://github.com/jaylencheng/SEU-Graduation-Design-Thsis)。
-联系方式：Email(jaylencheng@outlook.com)or[网页留言：](https://jaylencheng.github.io).
+联系方式：Email(jaylencheng@outlook.com或直接左下角邮件)or[网页留言：](https://jaylencheng.github.io).
 
 本模板基于早期许元同学等人发布的\verb+seuthesix.cls+，其版本见网址：
 [https://github.com/zhimengfan1990/seuthesix](https://github.com/zhimengfan1990/seuthesix)
