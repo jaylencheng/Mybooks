@@ -5,7 +5,11 @@ date: 2099-1-1 13:32:20 +0300
 description: 本站的更新日志. # Add post description (optional)
 img:  # Add image post (optional)
 ---
-> 2020年5月13日
+>2020年5月19日
+
+1. 在MyBooks中增加基于kramdown的$\LaTeX$公式渲染。
+
+> 2020年5月3日
 
 1. 更新Android app：Blog of Cata和Blog of Cata HD(version2.0.4): 为便于显示，主界面中的侧边栏移至页面最下方、联系方式的上方。
 2. 发布开发者版本的Android app：Blog of Cata beta(version1.0.1)
