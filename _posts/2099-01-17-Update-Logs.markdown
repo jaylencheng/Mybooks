@@ -5,7 +5,12 @@ date: 2099-1-1 13:32:20 +0300
 description: 本站的更新日志. # Add post description (optional)
 img:  # Add image post (optional)
 ---
->2020年5月19日
+
+> 2020年9月8日
+
+1. 在主页和MyBooks中删去ieee邮箱。
+
+> 2020年5月19日
 
 1. 在MyBooks中增加基于kramdown的$\LaTeX$公式渲染。
 
